@@ -23,31 +23,15 @@ header{
 .progress .determinate{
     background-color: #151B54 !important;
     
-}
-.curve {
-    position: absolute;
-    height: 225px;
-    width: 100%;
-    bottom: 0;
-}
-.curve::before{
-    content: '';
-    display: block;
-    position: absolute;
-    border-radius: 100% 50%;
-    width: 55%;
-    height: 100%;
-    background-color: #9e9e9e;
-    transform: translate(85%, 60%);
-}
-.curve::after{
-    content: '';
-    display: block;
-    position: absolute;
-    border-radius: 100% 50%;
-    width: 55%;
-    height: 100%;
-    background-color: white;
-    transform: translate(-4%, 40%);
-    z-index: -1;
+} section {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    min-height: 400px !important;
+    padding-top: 100px !important;
+  }
+
+#skills{
+    padding: 150px 0;
 }
