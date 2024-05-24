@@ -1,0 +1,53 @@
+/* #151B54 */
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    min-height: 50vh; 
+    
+}
+.blue{
+    background-color: #151B54 !important;
+}
+#header-text {
+    font-family: 'Gabriela', serif !important;
+    font-size: 3rem;
+
+}
+.justify{
+    text-align: justify;
+}
+.progress .determinate{
+    background-color: #151B54 !important;
+    
+}
+.curve {
+    position: absolute;
+    height: 225px;
+    width: 100%;
+    bottom: 0;
+}
+.curve::before{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: #9e9e9e;
+    transform: translate(85%, 60%);
+}
+.curve::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: white;
+    transform: translate(-4%, 40%);
+    z-index: -1;
+}
